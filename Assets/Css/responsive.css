@@ -1,0 +1,65 @@
+
+@media only screen and ( max-width:767px){
+    .hidden-on-mobile{
+        display: none;
+    }
+    
+    .header__middle{
+        padding: 20px;
+    }
+    .header__body-middle label{
+        display: block;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+    .bg-css{
+        min-height: 340px;
+    }
+    
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .hidden-on-tablet{
+        display: none;
+    }
+    
+    .header__checkout{
+        margin-right: 82px;
+    }
+    .header__body-middle label{
+        display: block;
+    }
+    .bg-css{
+        min-height: 550px;
+    }
+}
+
+/* Thiết bị lớn (máy tính xách tay / máy tính để bàn, 992px trở lên) */
+@media only screen and (min-width: 992px) and ( max-width:1234) {
+    .hidden-on-pc{
+        display: none;
+    }
+   
+}
+
+/* Thiết bị cực lớn (máy tính xách tay và máy tính để bàn lớn, 1200px trở lên) */
+@media only screen and (min-width: 1234px) {
+    .header__item-link-middle{
+        padding: 34px 22px;
+    }
+    .header__item-highlight::after{
+        top: 14px;
+        right: 20px;
+    }
+    .header__item-highlight::before{
+        top: 30px;
+        right: 30px;
+
+    }
+
+}
