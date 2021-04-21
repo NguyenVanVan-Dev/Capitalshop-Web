@@ -19,6 +19,17 @@
     .bg-css{
         min-height: 340px;
     }
+    .testimonial__text{
+        line-height: 1.5;
+        padding: 0 ;
+        margin-bottom: 32px;
+        font-size: 1.5rem;
+        color: #292621;
+        font-weight: 400;
+    }
+    .owl-prev i, .owl-next i {
+        display: none;
+    }
     
 }
 
@@ -36,6 +47,11 @@
     }
     .bg-css{
         min-height: 550px;
+    }
+    .testimonial__text{
+        
+        padding: 0 ;
+       
     }
 }
 

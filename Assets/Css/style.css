@@ -585,7 +585,7 @@ hr{
     font-weight: 600;
 }
 .product__two{
-    padding: 95px 0;
+    padding: 95px 0 95px 0;
 }
 .product__navbar{
     display: flex;
@@ -743,8 +743,81 @@ hr{
     font-weight: 500;
     margin-left: 12px;
 }
+.testimonial{
+    background: #F3EAD8;
+    padding: 80px 0;
+}
+
+.testimonial__body{
+    display: flex;
+    justify-content: center;
+}
+.testimonial__content{
+    text-align: center;
+}
+.testimonial__caption{
+
+}
+.testimonial__head{
+    font-size: 34px;
+    font-weight: 500;
+    color: #292621;
+    margin-bottom: 40px;
+}
+.testimonial__text{
+    line-height: 1.5;
+    padding: 0 150px;
+    margin-bottom: 32px;
+    font-size: 2.2rem;
+    color: #292621;
+    font-weight: 400;
+}
+
+.testimonial__deputy{
+    display: flex;
+    justify-content: center;
+   
+}
+.testimonial__deputy-img{
+
+}
+.testimonial__deputy-link{
+
+}
+.testimonial__deputy-info{
+    padding: 2px 20px ;
+    text-align: left;
+}
+.testimonial__deputy-name{
+    font-family: "Jost",sans-serif;
+    color: #292621;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.testimonial__deputy-position{
+    padding-top: 2px;
+    color: #525150;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.owl-prev {
+    position: absolute;
+    top: 40%;
+    left: -35px;
+    font-size: 3.2rem;
+}
+.owl-next {
+    position: absolute;
+    top: 40%;
+    right: -35px;
+    font-size: 3.2rem;
+}
+
+.owl-prev i, .owl-next i {
+    color: rgba(41,38,33,0.3);
+}
 /* End Content */
 /* Footer */
 #footer{
-    height: 1000px;
+    height: 5000px;
 }
