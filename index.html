@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="./Assets/Css/grid-library.css">
     <!-- <link rel="stylesheet" href="./node_modules/animate.css/animate.css"> -->
 </head>
-<body>
+<body  class="preloading" >
+    <div class="loader">
+        <div class="center-div">
+            <div class="xoay"></div>
+            <span class="fas fa-store loader__icon"></span>
+        </div>
+     </div>
     <div class="wrapper">
         <div id="header">
             <div class="header__top">
@@ -958,7 +964,11 @@
  
          })
          
- 
+         $(window).on('load', function(event) {
+            $('body').removeClass('preloading');
+                // $('.load').delay(1000).fadeOut('fast');
+            $('.loader').delay(1000).fadeOut('fast');
+        });
           
      </script> 
 </body>
