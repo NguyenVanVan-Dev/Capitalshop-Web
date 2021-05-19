@@ -19,6 +19,7 @@ function myFunction() {
 function openCity(evt, cityName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("product__tab");
+  console.log(x.length)
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
@@ -31,3 +32,5 @@ function openCity(evt, cityName) {
   evt.currentTarget.classList.add("active_tab") ;
   
 }
+
+console.log(sticky)
